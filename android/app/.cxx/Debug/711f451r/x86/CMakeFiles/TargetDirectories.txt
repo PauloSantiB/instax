@@ -1,0 +1,2 @@
+/Users/mcasco/Documents/repositories/personal/instax/android/app/.cxx/Debug/711f451r/x86/CMakeFiles/edit_cache.dir
+/Users/mcasco/Documents/repositories/personal/instax/android/app/.cxx/Debug/711f451r/x86/CMakeFiles/rebuild_cache.dir

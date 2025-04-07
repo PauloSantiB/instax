@@ -69,9 +69,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                   sourcePath: image.path,
                                   aspectRatio: const CropAspectRatio(
                                       ratioX: 1, ratioY: 1),
-                                  aspectRatioPresets: [
-                                    CropAspectRatioPreset.square
-                                  ],
                                   uiSettings: [
                                     AndroidUiSettings(
                                       toolbarTitle: 'Cropper',
@@ -81,9 +78,15 @@ class _HomeScreenState extends State<HomeScreen> {
                                       initAspectRatio:
                                           CropAspectRatioPreset.original,
                                       lockAspectRatio: false,
+                                      aspectRatioPresets: [
+                                        CropAspectRatioPreset.square
+                                      ],
                                     ),
                                     IOSUiSettings(
                                       title: 'Cropper',
+                                      aspectRatioPresets: [
+                                        CropAspectRatioPreset.square
+                                      ],
                                     ),
                                   ],
                                 );
