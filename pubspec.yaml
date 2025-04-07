@@ -1,0 +1,40 @@
+name: instax
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  image_cropper: ^5.0.0
+  
+  # Firebase
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.4.2
+
+  #BloC
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  cloud_firestore: ^5.6.5
+
+  #Custon Repository
+  user_repository:
+    path: packages/user_repository
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
